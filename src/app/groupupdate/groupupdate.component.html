@@ -1,0 +1,63 @@
+<div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-12 col-lg-6">
+        <div class="card bg-light mb-3" style="max-width: 40rem;">
+                <div class=" card text-white bg-primary mb-3 card-header">Header</div>
+                <div class="card-body">
+                        <form #f="ngForm">
+                                <div style="width:500px;padding-left:50px ;">
+                                    <div class="form-group">
+                                            <label>
+                                                code groupe:
+                                            </label>
+                                            <input type="text" name="codegrp" [(ngModel)]="cg" required class="form-control"/>
+                                          </div>
+                            <div class="form-group">
+                                <label>
+                                    nom groupe:
+                                </label>
+                                <input type="text" name="nomgrp" [(ngModel)]="ng" required class="form-control"/>
+                            
+                            </div>
+                            
+                            <button [disabled]="f.invalid" class="btn btn-primary">Update</button>
+                            </div>
+                            </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+                    <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                              </tr>
+                            </tbody>
+                          </table>
+            
+            </div>
+            </div>
+        </div>

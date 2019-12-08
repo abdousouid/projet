@@ -1,0 +1,19 @@
+<form #f="ngForm">
+        <div style="width:500px;padding-left:50px ;">
+            <div class="form-group">
+                    <label>
+                        Code groupe:
+                    </label>
+                    <input type="text" name="codegrp" [(ngModel)]="cg" required class="form-control"/>
+                  </div>
+    <div class="form-group">
+        <label>
+            Nom groupe:
+        </label>
+        <input type="text" name="nomgrp" [(ngModel)]="ng" required class="form-control"/>
+    
+    </div>
+   
+    <button [disabled]="f.invalid" class="btn btn-primary">Submit</button>
+    </div>
+    </form>

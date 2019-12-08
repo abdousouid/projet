@@ -10,11 +10,19 @@ import{EmpdeletComponent}from './empdelet/empdelet.component';
 import{EmpreadComponent}from './empread/empread.component';
 import{EmpupdateComponent}from './empupdate/empupdate.component';
 import {CompterechercherComponent} from './compterechercher/compterechercher.component';
-
-
+import {OperationComponent} from './operation/operation.component';
+import {GroupcreateComponent} from './groupcreate/groupcreate.component';
+import {GroupreadComponent} from './groupread/groupread.component';
+import {GroupupdateComponent} from './groupupdate/groupupdate.component';
+import {GroupdeleteComponent} from './groupdelete/groupdelete.component';
 const routes: Routes = [{path:'accueil',component:AccueilComponent},
+{path:'groupdelete',component:GroupdeleteComponent},
 {path:'clientcreation',component:ClientcreationComponent},
+{path:'groupupdate',component:GroupupdateComponent},
+{path:'groupread',component:GroupreadComponent},
 {path:'compterechercher',component:CompterechercherComponent},
+{path:'operation',component:OperationComponent},
+{path:'groupcreate',component:GroupcreateComponent},
 {path:'clientupdate',component:ClientupdateComponent},
 {path:'clientread',component:ClientreadComponent},
 {path:'clientdelete',component:ClientdeleteComponent},

@@ -2,21 +2,53 @@
     <div class="row padding">
         <div class="col-md-12 col-lg-6">
 <form #f="ngForm">
-        <div style="width:300px;padding-left:50px ;">
+        <div style="width:450px;padding-left:50px ;">
             <div class="form-group">
                     <label>
                        Rechercher compte
                     </label>
                     <input  type="text" name="name" [(ngModel)]="nom" required class="form-control"/><button (click)="check()" class="btn btn-primary">OK</button>
-                    
+                    <app-compteupdate></app-compteupdate>
+                    <app-comptedelete></app-comptedelete>
+                    <app-compteaffiche></app-compteaffiche>
+                    <app-compteadd></app-compteadd>
                 </div>
                   
 </div>
 </form>
 </div>
 <div class="col-lg-6">
-<div *ngIf="x==true">
-sqdsq       
+<div >
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>       
 </div>
 </div>
 </div>

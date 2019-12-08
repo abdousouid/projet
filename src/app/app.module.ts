@@ -15,6 +15,19 @@ import { EmpdeletComponent } from './empdelet/empdelet.component';
 import { EmpupdateComponent } from './empupdate/empupdate.component';
 import { EmpreadComponent } from './empread/empread.component';
 import { CompterechercherComponent } from './compterechercher/compterechercher.component';
+import { CompteupdateComponent } from './compteupdate/compteupdate.component';
+import { ComptedeleteComponent } from './comptedelete/comptedelete.component';
+import { CompteafficheComponent } from './compteaffiche/compteaffiche.component';
+import { CompteaddComponent } from './compteadd/compteadd.component';
+import { OperationComponent } from './operation/operation.component';
+import { VerserComponent } from './verser/verser.component';
+import { RetirerComponent } from './retirer/retirer.component';
+import { VirementComponent } from './virement/virement.component';
+import { AlloperationComponent } from './alloperation/alloperation.component';
+import { GroupcreateComponent } from './groupcreate/groupcreate.component';
+import { GroupreadComponent } from './groupread/groupread.component';
+import { GroupupdateComponent } from './groupupdate/groupupdate.component';
+import { GroupdeleteComponent } from './groupdelete/groupdelete.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +43,20 @@ import { CompterechercherComponent } from './compterechercher/compterechercher.c
     EmpdeletComponent,
     EmpupdateComponent,
     EmpreadComponent,
-    CompterechercherComponent
+    CompterechercherComponent,
+    CompteupdateComponent,
+    ComptedeleteComponent,
+    CompteafficheComponent,
+    CompteaddComponent,
+    OperationComponent,
+    VerserComponent,
+    RetirerComponent,
+    VirementComponent,
+    AlloperationComponent,
+    GroupcreateComponent,
+    GroupreadComponent,
+    GroupupdateComponent,
+    GroupdeleteComponent
   ],
   imports: [
     BrowserModule,

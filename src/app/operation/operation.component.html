@@ -1,0 +1,26 @@
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-12 col-lg-6">
+<form #f="ngForm">
+        <div style="width:450px;padding-left:50px ;">
+            <div class="form-group">
+                    <label>
+                       Operations
+                    </label>
+                    <input  type="text" name="name" [(ngModel)]="nom" required class="form-control"/><button (click)="check()" class="btn btn-primary">OK</button>
+                    <app-verser></app-verser>
+                    <app-retirer></app-retirer>
+                    <app-virement></app-virement>
+                </div>
+                  
+</div>
+</form>
+</div>
+<div class="col-lg-6">
+    
+<div >
+    <app-alloperation></app-alloperation>   
+</div>
+</div>
+</div>
+</div>

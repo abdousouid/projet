@@ -5,17 +5,17 @@
             <div style="width:300px;padding-left:50px ;">
                 <div class="form-group">
                         <label>
-                            Delete By Id:
+                            Select By Id:
                         </label>
-                        <input  type="text" name="name" [(ngModel)]="nom" required class="form-control"/><button (click)="check()" class="btn btn-primary">Delete</button>
-                        
+                        <input  type="text" name="name" [(ngModel)]="nom" required class="form-control"/><button (click)="check()" class="btn btn-primary">OK</button>
+                        <button (click)="check()" class="btn btn-primary">Affiche everything</button>
                     </div>
                       
     </div>
     </form>
     </div>
     <div class="col-lg-6">
-    
+    <div *ngIf="x==true">
             <table class="table">
                     <thead>
                       <tr>
@@ -46,7 +46,7 @@
                       </tr>
                     </tbody>
                   </table>
-                
+                </div>
     </div>
     </div>
     </div>
