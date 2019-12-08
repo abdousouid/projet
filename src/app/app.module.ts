@@ -9,6 +9,12 @@ import { ClientcreationComponent } from './clientcreation/clientcreation.compone
 import { ClientreadComponent } from './clientread/clientread.component';
 import { ClientupdateComponent } from './clientupdate/clientupdate.component';
 import { ClientdeleteComponent } from './clientdelete/clientdelete.component';
+import { EmpcreerComponent } from './empcreer/empcreer.component';
+import { EmpajoutComponent } from './empajout/empajout.component';
+import { EmpdeletComponent } from './empdelet/empdelet.component';
+import { EmpupdateComponent } from './empupdate/empupdate.component';
+import { EmpreadComponent } from './empread/empread.component';
+import { CompterechercherComponent } from './compterechercher/compterechercher.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,13 @@ import { ClientdeleteComponent } from './clientdelete/clientdelete.component';
     ClientcreationComponent,
     ClientreadComponent,
     ClientupdateComponent,
-    ClientdeleteComponent
+    ClientdeleteComponent,
+    EmpcreerComponent,
+    EmpajoutComponent,
+    EmpdeletComponent,
+    EmpupdateComponent,
+    EmpreadComponent,
+    CompterechercherComponent
   ],
   imports: [
     BrowserModule,

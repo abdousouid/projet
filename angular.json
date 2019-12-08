@@ -27,7 +27,8 @@
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": ["D:/tptp/islem/Bank/node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "scripts": [
+        
             "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"]
           },
           "configurations": {

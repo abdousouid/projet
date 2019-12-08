@@ -1,6 +1,6 @@
 <div style="height:600px" class="bg">
 <div>
-    <h1 style="color:#000;text-align:center;font-size:90px" >BienVenue</h1>
+    <h1 style="color:#000;text-align:center;font-size:90px; " >BIENVENU</h1>
 </div>
 <div class="container-fluid padding">
         <div class="row padding">
@@ -10,7 +10,25 @@
                             <div class="card-body">
                               <h5 class="card-title">Compte</h5>
                               <p class="card-text">Create your own account.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <ul class="navbar-nav mr-auto">
+                                <!-- <li class="nav-item active">
+                                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li> -->
+                                <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Compte 
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <a class="dropdown-item" routerLink="/compterechercher">Rechercher</a>
+                                          <a class="dropdown-item"  routerLink="/clientread">Affiche</a>
+                                          <a class="dropdown-item" routerLink="/clientupdate">AJouter</a>
+                                          <a class="dropdown-item" routerLink="/clientdelete">Delete</a>
+                                          <a class="dropdown-item" routerLink="/qsdsqd">Update</a>
+                                          <div class="dropdown-divider"></div>
+                                        <!--  <a class="dropdown-item" href="#">Something else here</a>-->
+                                        </div>
+                                      </li>
+                                      </ul>
                             </div>
                           </div>
             </div>
